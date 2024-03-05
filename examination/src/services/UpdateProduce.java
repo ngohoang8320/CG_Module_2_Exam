@@ -21,17 +21,21 @@ public class UpdateProduce {
                 input.nextLine();
                 prod.setId(newId);
 
+                System.out.print("Nhập tên sản phẩm: ");
                 String newName = input.nextLine();
                 prod.setName(newName);
 
+                System.out.print("Nhập giá sản phẩm: ");
                 double newPrice = input.nextDouble();
                 input.nextLine();
                 prod.setPrice(newPrice);
 
+                System.out.print("Nhập số lượng sản phẩm: ");
                 int newQuantity = input.nextInt();
                 input.nextLine();
                 prod.setPrice(newQuantity);
 
+                System.out.print("Nhập mô tả sản phẩm: ");
                 String newDes = input.nextLine();
                 prod.setDescription(newDes);
             }
