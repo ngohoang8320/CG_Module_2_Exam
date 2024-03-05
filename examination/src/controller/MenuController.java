@@ -42,8 +42,9 @@ public class MenuController {
                 sort.sort(productList);
                 menuController();
             case "6":
-
-                break;
+                FindMaxPrice findMaxPrice = new FindMaxPrice();
+                findMaxPrice.find(productList);
+                menuController();
             case "7":
                 productList = writeReadFile.readFile(productList);
                 menuController();

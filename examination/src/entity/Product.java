@@ -16,7 +16,12 @@ public class Product {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
-        this.description = description;
+        if (description.length() == 0) {
+            this.description = " ";
+        } else {
+            this.description = description;
+        }
+
     }
 
     public int getId() {

@@ -9,7 +9,7 @@ public class MenuPage {
         System.out.println("3. Cập nhật");
         System.out.println("4. Xóa");
         System.out.println("5. Sắp xếp");
-        System.out.println("6. Tìm kiếm sản phẩm");
+        System.out.println("6. Tìm kiếm sản phẩm có giá lớn nhất");
         System.out.println("7. Đọc từ file");
         System.out.println("8. Ghi vào file");
         System.out.println("9. Thoát");
